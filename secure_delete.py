@@ -17,7 +17,7 @@ def secure_delete(drive, passes=35):
 
 print("DISCLAIMER: This script is intended for use on HARD DRIVES only and will NOT work effectively on Solid State Drives (SSDs).")
 print("WARNING: This script will permanently destroy all data on the specified drive.")
-drive = input("Enter the drive letter (e.g., D:\\): ")
+drive = input("Enter the drive letter (e.g., D): ")
 
 confirmation1 = input(f"Are you sure you want to erase ALL data on {drive}? This is IRREVERSIBLE. Type 'YES' to confirm: ")
 if confirmation1 != "YES":
